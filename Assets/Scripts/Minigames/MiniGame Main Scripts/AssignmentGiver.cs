@@ -20,9 +20,8 @@ public class AssignmentGiver : MinigameBase{
                 switch (f)
                 {
                     case Formula.Optellen:
-                        int[] n;
-                        int s0 = 0;
-                        int s1 = 0;
+                        int s0;
+                        int s1;
                         int r0;
                         int r1;
                         switch (d)
